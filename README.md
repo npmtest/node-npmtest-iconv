@@ -1,4 +1,7 @@
-# test coverage for  [iconv (v2.2.3)](https://github.com/bnoordhuis/node-iconv)  [![npm package](https://img.shields.io/npm/v/npmtest-iconv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-iconv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-iconv.svg)](https://travis-ci.org/npmtest/node-npmtest-iconv)
+# npmtest-iconv
+
+#### basic test coverage for  [iconv (v2.2.3)](https://github.com/bnoordhuis/node-iconv)  [![npm package](https://img.shields.io/npm/v/npmtest-iconv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-iconv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-iconv.svg)](https://travis-ci.org/npmtest/node-npmtest-iconv)
+
 #### Text recoding in JavaScript for fun and profit!
 
 [![NPM](https://nodei.co/npm/iconv.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/iconv)
@@ -9,9 +12,15 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-iconv/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-iconv/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-iconv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-iconv/tree/gh-pages/build)|
 
+- [https://npmtest.github.io/node-npmtest-iconv/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-iconv/build/coverage.html/index.html)
+
 [![istanbul-coverage](https://npmtest.github.io/node-npmtest-iconv/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-iconv/build/coverage.html/index.html)
 
+- [https://npmtest.github.io/node-npmtest-iconv/build/test-report.html](https://npmtest.github.io/node-npmtest-iconv/build/test-report.html)
+
 [![test-report](https://npmtest.github.io/node-npmtest-iconv/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-iconv/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-iconv/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-iconv/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-iconv/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-iconv/build/apidoc.html)
 
@@ -67,7 +76,8 @@
         "install": "node-gyp rebuild",
         "test": "tap test/test-*.js"
     },
-    "version": "2.2.3"
+    "version": "2.2.3",
+    "bin": {}
 }
 ```
 
